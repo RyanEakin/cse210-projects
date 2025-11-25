@@ -24,8 +24,8 @@ class Program
             Console.WriteLine("Comments: "+track[i].CommentAmount());
             for(int c = 0; track[i]._discussion.Count > c ; c++)
             {
-                Console.WriteLine("\n"+firstVideo._discussion[c]._name);
-                Console.WriteLine(firstVideo._discussion[c]._text+"\n");
+                Console.WriteLine("\n"+track[i]._discussion[c]._name);
+                Console.WriteLine(track[i]._discussion[c]._text+"\n");
             }
         }
 

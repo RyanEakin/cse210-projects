@@ -20,8 +20,9 @@ class Video
     public int CommentAmount() 
     //changed this to no argument due to the member variable being in the same class
     {   
-        int amountComments =_discussion.Count;
-        return amountComments;
+        int amountComment = 0;
+        amountComment =_discussion.Count;
+        return amountComment;
     }
     // didn't need the Display class after all, so I cut it out of the program.
 }
