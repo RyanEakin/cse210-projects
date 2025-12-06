@@ -18,7 +18,7 @@ class Program
         {
             Console.WriteLine($"Color: {element.GetColor()}");
             Console.WriteLine($"Area: {element.GetArea()}");
-            Console.WriteLine($"The {element.GetColor()} shape has an area of {element.GetArea}."); 
+            Console.WriteLine($"The {element.GetColor()} shape has an area of {element.GetArea()}."); 
             // added this after exercise to ensure I don't mess this up with the code since it ONLY stated showing the color and area
             Console.WriteLine();
         }
